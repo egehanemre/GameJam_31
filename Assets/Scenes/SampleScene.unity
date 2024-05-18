@@ -360,7 +360,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e83630aeec2db64bbef7c7451dd8294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questions: []
+  questions:
+  - {fileID: 0}
   questionText: {fileID: 2025641683}
   categoryText: {fileID: 1988247918}
   answerButtons:
