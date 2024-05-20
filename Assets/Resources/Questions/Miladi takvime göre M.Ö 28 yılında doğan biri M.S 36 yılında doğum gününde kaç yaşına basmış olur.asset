@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9232ef590e8a2974983a6d1c19681500, type: 3}
+  m_Name: "Miladi takvime g\xF6re M.\xD6 28 y\u0131l\u0131nda do\u011Fan biri M.S
+    36 y\u0131l\u0131nda do\u011Fum g\xFCn\xFCnde ka\xE7 ya\u015F\u0131na basm\u0131\u015F
+    olur"
+  m_EditorClassIdentifier: 
+  question: "Miladi takvime g\xF6re M.\xD6 28 y\u0131l\u0131nda do\u011Fan biri M.S
+    36 y\u0131l\u0131nda do\u011Fum g\xFCn\xFCnde ka\xE7 ya\u015F\u0131na basm\u0131\u015F
+    olur?"
+  category: "G\xFCnl\xFCk Hayat"
+  answers:
+  - 63
+  - 64
+  - 65
+  - 62

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9232ef590e8a2974983a6d1c19681500, type: 3}
+  m_Name: "A Milli Kad\u0131n Voleybol Tak\u0131m\u0131 son D\xFCnya Kupas\u0131n\u0131
+    hangi y\u0131l kazanm\u0131\u015Ft\u0131r"
+  m_EditorClassIdentifier: 
+  question: "A Milli Kad\u0131n Voleybol Tak\u0131m\u0131 son D\xFCnya Kupas\u0131n\u0131
+    hangi y\u0131l kazanm\u0131\u015Ft\u0131r?"
+  category: Spor
+  answers:
+  - 2023
+  - 2022
+  - 2021
+  - 2020

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9232ef590e8a2974983a6d1c19681500, type: 3}
+  m_Name: "Anadolu'nun kap\u0131s\u0131n\u0131 T\xFCrklere a\xE7an sava\u015F olarak
+    da bilinen Malazgirt Sava\u015F\u0131 hangi tarihte ger\xE7ekle\u015Fmi\u015Ftir"
+  m_EditorClassIdentifier: 
+  question: "Anadolu'nun kap\u0131s\u0131n\u0131 T\xFCrklere a\xE7an sava\u015F olarak
+    da bilinen Malazgirt Sava\u015F\u0131 hangi tarihte ger\xE7ekle\u015Fmi\u015Ftir?"
+  category: Tarih
+  answers:
+  - 1071
+  - 1058
+  - 1143
+  - 1284

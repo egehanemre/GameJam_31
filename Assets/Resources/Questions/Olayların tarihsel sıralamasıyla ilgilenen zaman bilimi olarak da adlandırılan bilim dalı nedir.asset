@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9232ef590e8a2974983a6d1c19681500, type: 3}
+  m_Name: "Olaylar\u0131n tarihsel s\u0131ralamas\u0131yla ilgilenen zaman bilimi
+    olarak da adland\u0131r\u0131lan bilim dal\u0131 nedir"
+  m_EditorClassIdentifier: 
+  question: "Olaylar\u0131n tarihsel s\u0131ralamas\u0131yla ilgilenen zaman bilimi
+    olarak da adland\u0131r\u0131lan bilim dal\u0131 nedir?"
+  category: Bilim
+  answers:
+  - Kronoloji
+  - Antropoloji
+  - Arkeoloji
+  - Filoloji

@@ -1,5 +1,3 @@
-// This script controls choosing, presenting and randomizing questions & answers
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -54,9 +52,9 @@ public class QuestionSetup : MonoBehaviour
     {
         // Get a random value for which question to choose
         int randomQuestionIndex = Random.Range(0, questions.Count);
-        //Set the question to the randon index
+        //Set the question to the random index
         currentQuestion = questions[randomQuestionIndex];
-        // Remove this questionm from the list so it will not be repeared (until the game is restarted)
+        // Remove this question from the list so it will not be repeated (until the game is restarted)
         questions.RemoveAt(randomQuestionIndex);
     }
 
@@ -114,7 +112,40 @@ public class QuestionSetup : MonoBehaviour
             originalList.RemoveAt(random);
         }
 
-
         return newList;
+    }
+
+    // Method to load a new question
+    public void LoadNewQuestion()
+    {
+        // Check if there are more questions available
+        if (questions.Count > 0)
+        {
+            // Reset answer buttons
+            ResetAnswerButtons();
+
+            // Select a new question
+            SelectNewQuestion();
+
+            // Set question values
+            SetQuestionValues();
+
+            // Set answer values
+            SetAnswerValues();
+        }
+        else
+        {
+            Debug.Log("No more questions available.");
+            // You can handle end of questions here, for example, display a game over screen.
+        }
+    }
+
+    // Method to reset answer buttons
+    private void ResetAnswerButtons()
+    {
+        foreach (var button in answerButtons)
+        {
+            button.EnableButton(); // Enable all answer buttons
+        }
     }
 }

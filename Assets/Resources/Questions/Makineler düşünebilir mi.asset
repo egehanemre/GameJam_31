@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9232ef590e8a2974983a6d1c19681500, type: 3}
+  m_Name: "Makineler d\xFC\u015F\xFCnebilir mi"
+  m_EditorClassIdentifier: 
+  question: "Makineler d\xFC\u015F\xFCnebilir mi? sorusuyla makine \xF6\u011Frenmesi
+    kavram\u0131n\u0131 ortaya \xE7\u0131karan ve kendine ait testi bulunan \xFCnl\xFC
+    \u0130ngiliz matematik\xE7i kimdir?"
+  category: "G\xFCnl\xFCk Hayat"
+  answers:
+  - Alan Turing
+  - "Kurt G\xF6del"
+  - Ada Lovelace
+  - Marie Curie
